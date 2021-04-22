@@ -19,7 +19,7 @@ function App() {
       {loading ? 'идет загрузка' : (
           todos.map(todo => {
             return(
-                <div>
+                <div className='todo'>
                   {todo.title}
                 </div>
             )
